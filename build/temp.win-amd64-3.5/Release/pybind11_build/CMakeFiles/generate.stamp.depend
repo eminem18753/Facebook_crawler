@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/WriteBasicConfigVersionFile.cmake
+D:/資料科學/期末專題/dlib/external/pybind11/CMakeLists.txt
+D:/資料科學/期末專題/dlib/external/pybind11/tools/FindPythonLibsNew.cmake
+D:/資料科學/期末專題/dlib/external/pybind11/tools/pybind11Tools.cmake

@@ -1,0 +1,6 @@
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/CMakeFiles/dlib_python.dir
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/CMakeFiles/ALL_BUILD.dir
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/CMakeFiles/ZERO_CHECK.dir
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/pybind11_build/CMakeFiles/ALL_BUILD.dir
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/dlib.dir
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/ALL_BUILD.dir

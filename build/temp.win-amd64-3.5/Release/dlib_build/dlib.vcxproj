@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35898130-C9F1-3BE4-8AE2-E17295565C6B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dlib19.16.0_debug_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dlib19.16.0_release_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dlib19.16.0_minsizerel_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dlib19.16.0_relwithdebinfo_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_USE_BLAS;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\資料科學\期末專題\dlib\external\libpng;D:\資料科學\期末專題\dlib\external\zlib;C:\Users\USER\Anaconda3\envs\py35\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\資料科學\期末專題\dlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/資料科學/期末專題/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/資料科學/期末專題/tools/python -BD:/資料科學/期末專題/build/temp.win-amd64-3.5/Release --check-stamp-file D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/資料科學/期末專題/dlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c;D:\資料科學\期末專題\dlib\CMakeLists.txt;D:\資料科學\期末專題\dlib\cmake_utils\check_if_avx_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_neon_available.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_sse4_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\find_blas.cmake;D:\資料科學\期末專題\dlib\cmake_utils\release_build_by_default;D:\資料科學\期末專題\dlib\cmake_utils\set_compiler_specific_options.cmake;D:\資料科學\期末專題\dlib\cmake_utils\use_cpp_11.cmake;D:\資料科學\期末專題\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/資料科學/期末專題/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/資料科學/期末專題/tools/python -BD:/資料科學/期末專題/build/temp.win-amd64-3.5/Release --check-stamp-file D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/資料科學/期末專題/dlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c;D:\資料科學\期末專題\dlib\CMakeLists.txt;D:\資料科學\期末專題\dlib\cmake_utils\check_if_avx_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_neon_available.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_sse4_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\find_blas.cmake;D:\資料科學\期末專題\dlib\cmake_utils\release_build_by_default;D:\資料科學\期末專題\dlib\cmake_utils\set_compiler_specific_options.cmake;D:\資料科學\期末專題\dlib\cmake_utils\use_cpp_11.cmake;D:\資料科學\期末專題\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/資料科學/期末專題/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/資料科學/期末專題/tools/python -BD:/資料科學/期末專題/build/temp.win-amd64-3.5/Release --check-stamp-file D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/資料科學/期末專題/dlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c;D:\資料科學\期末專題\dlib\CMakeLists.txt;D:\資料科學\期末專題\dlib\cmake_utils\check_if_avx_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_neon_available.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_sse4_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\find_blas.cmake;D:\資料科學\期末專題\dlib\cmake_utils\release_build_by_default;D:\資料科學\期末專題\dlib\cmake_utils\set_compiler_specific_options.cmake;D:\資料科學\期末專題\dlib\cmake_utils\use_cpp_11.cmake;D:\資料科學\期末專題\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/資料科學/期末專題/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/資料科學/期末專題/tools/python -BD:/資料科學/期末專題/build/temp.win-amd64-3.5/Release --check-stamp-file D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/資料科學/期末專題/dlib/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c;D:\資料科學\期末專題\dlib\CMakeLists.txt;D:\資料科學\期末專題\dlib\cmake_utils\check_if_avx_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_neon_available.cmake;D:\資料科學\期末專題\dlib\cmake_utils\check_if_sse4_instructions_executable_on_host.cmake;D:\資料科學\期末專題\dlib\cmake_utils\find_blas.cmake;D:\資料科學\期末專題\dlib\cmake_utils\release_build_by_default;D:\資料科學\期末專題\dlib\cmake_utils\set_compiler_specific_options.cmake;D:\資料科學\期末專題\dlib\cmake_utils\use_cpp_11.cmake;D:\資料科學\期末專題\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\base64\base64_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bigint\bigint_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bigint\bigint_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bit_stream\bit_stream_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\md5\md5_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\tokenizer\tokenizer_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\unicode\unicode.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\data_io\image_dataset_metadata.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\data_io\mnist.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\global_optimization\global_function_search.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\filtering\kalman_filter.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\test_for_odr_violations.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\svm\auto.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bsp\bsp.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_extensions.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\linker\linker_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\extra_logger_headers.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\logger_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\logger_config_file.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\misc_api\misc_api_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\misc_api\misc_api_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_extensions.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockstreambuf\sockstreambuf.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_kernel.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_iostream.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_http.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\multithreaded_object_extension.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threaded_object_extension.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_shared.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\thread_pool_extension.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\async.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\timer\timer.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\stack_trace.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\cuda\cpu_dlib.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\cuda\tensor_tools.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\fonts.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\widgets.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\drawable.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\canvas_drawing.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\style.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\base_widgets.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_core\gui_core_kernel_1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_core\gui_core_kernel_2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\png.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngerror.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngget.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngmem.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngpread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrtran.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngset.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngtrans.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwio.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwrite.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwtran.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\adler32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\compress.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\crc32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\deflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzclose.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzlib.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzread.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzwrite.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\infback.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inffast.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inflate.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inftrees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\trees.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\uncompr.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\zutil.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_loader\png_loader.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_saver\save_png.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcomapi.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdapimin.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdapistd.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdatasrc.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdcoefct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdcolor.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jddctmgr.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdhuff.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdinput.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmainct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmarker.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmaster.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmerge.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdphuff.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdpostct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdsample.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jerror.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctflt.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctfst.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctint.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctred.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jmemmgr.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jmemnobs.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jquant1.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jquant2.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jutils.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcapimin.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdatadst.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcparam.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcapistd.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmarker.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcinit.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmaster.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcdctmgr.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jccoefct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jccolor.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jchuff.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmainct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcphuff.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcprepct.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcsample.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctint.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctflt.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctfst.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_loader\jpeg_loader.cpp" />
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_saver\save_jpeg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\資料科學\期末專題\build\temp.win-amd64-3.5\Release\ZERO_CHECK.vcxproj">
+      <Project>{E4D7D72C-D886-33AF-BA57-5F8327B05A7E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

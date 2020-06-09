@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\base64\base64_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bigint\bigint_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bigint\bigint_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bit_stream\bit_stream_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\md5\md5_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\tokenizer\tokenizer_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\unicode\unicode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\data_io\image_dataset_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\data_io\mnist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\global_optimization\global_function_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\filtering\kalman_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\test_for_odr_violations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\svm\auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\bsp\bsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\dir_nav\dir_nav_extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\linker\linker_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\extra_logger_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\logger_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\logger\logger_config_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\misc_api\misc_api_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\misc_api\misc_api_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockets\sockets_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockstreambuf\sockstreambuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_iostream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\server\server_http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\multithreaded_object_extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threaded_object_extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\threads_kernel_shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\thread_pool_extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\threads\async.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\timer\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\stack_trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\cuda\cpu_dlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\cuda\tensor_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\drawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\canvas_drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_widgets\base_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_core\gui_core_kernel_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\gui_core\gui_core_kernel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libpng\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_loader\png_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_saver\save_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcomapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdapimin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdapistd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdatasrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdcoefct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdcolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jddctmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdhuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdinput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmainct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdmerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdphuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdpostct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdsample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctflt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctfst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jidctred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jmemmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jmemnobs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jquant1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jquant2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcapimin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jdatadst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcapistd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcinit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcdctmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jccoefct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jccolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jchuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcmainct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcphuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcprepct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jcsample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctflt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\external\libjpeg\jfdctfst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_loader\jpeg_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\資料科學\期末專題\dlib\image_saver\save_jpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\資料科學\期末專題\dlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{95B59060-A534-3F24-A596-7317FDFB53EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

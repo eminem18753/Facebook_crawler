@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckFortranFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckTypeSize.c.in
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindGIF.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/SelectLibraryConfigurations.cmake
+D:/資料科學/期末專題/build/temp.win-amd64-3.5/Release/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+D:/資料科學/期末專題/dlib/CMakeLists.txt
+D:/資料科學/期末專題/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake
+D:/資料科學/期末專題/dlib/cmake_utils/check_if_neon_available.cmake
+D:/資料科學/期末專題/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake
+D:/資料科學/期末專題/dlib/cmake_utils/find_blas.cmake
+D:/資料科學/期末專題/dlib/cmake_utils/release_build_by_default
+D:/資料科學/期末專題/dlib/cmake_utils/set_compiler_specific_options.cmake
+D:/資料科學/期末專題/dlib/cmake_utils/use_cpp_11.cmake
