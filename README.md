@@ -1,55 +1,55 @@
-¬Ò¦bwindows¨t²Î¤W°õ¦æ(windows 10)
-¤ÀªR»PtrainingÀô¹Ò:
-1.¦w¸ËseleniumÀô¹Ò¡A¨Ã¤U¸ü¹ïÀ³ªºfirefox geckodriver.exe©ñ¦b¹ïÀ³ªº¸ô®|¡C
-2.¨Ï¥Îsoftware client¥[¤WVPNGateÁ×§Kip³Q«ÊÂê
-3.¦w¸Ëurllib.request®M¥ó
-4.¦w¸Ërequests_html®M¥ó¥H¤Îbs4
-5.¦w¸Ëopencc(±NÂ²Åé¦rÂà´«¬°ÁcÅé¦r)
-6.¦w¸Ëmtranslate¡A´£¨Ñ¦bÀ£ÁYÀÉ¤¤
+#####çš†åœ¨windowsç³»çµ±ä¸ŠåŸ·è¡Œ(windows 10) <br />
+##åˆ†æèˆ‡trainingç’°å¢ƒ: <br />
+1.å®‰è£seleniumç’°å¢ƒï¼Œä¸¦ä¸‹è¼‰å°æ‡‰çš„firefox geckodriver.exeæ”¾åœ¨å°æ‡‰çš„è·¯å¾‘ã€‚ <br />
+2.ä½¿ç”¨software clientåŠ ä¸ŠVPNGateé¿å…ipè¢«å°é– <br />
+3.å®‰è£urllib.requestå¥—ä»¶ <br />
+4.å®‰è£requests_htmlå¥—ä»¶ä»¥åŠbs4 <br />
+5.å®‰è£opencc(å°‡ç°¡é«”å­—è½‰æ›ç‚ºç¹é«”å­—) <br />
+6.å®‰è£mtranslateï¼Œæä¾›åœ¨å£“ç¸®æª”ä¸­ <br /><br />
 
-¤ÀªR»Ptraining°õ¦æ¬yµ{:
-1.°õ¦æfacebook_crawling.py¡A²£¥Í¥Î¤á©Ò¦³ªB¤ÍªºªB¤Íªºfacebook­Ó¤HÀÉ®×ªºurl pickleÀÉ
-2.±µµÛ°õ¦æcrawling_name.pyÅª¨ú©Ò¦³ªºurl¡A¨ú±o¨Ï¥ÎªÌªº¨C¦ìªB¤Íªº¥]§t¤u§@¡B¾Ç®Õ¤Î®a¶mµ¥ªº­Ó¤H¸ê°T
-3.¦A¨Ó°õ¦ædataset_questionmark_processing.py¡A±N¦h¾lªº¸ê®Æ¥h°£(§Y¥u¦³´£¨Ñ¦W¦rªº¸ê®Æ»İ¥h°£)
-4.°õ¦ælanguage_processing.py¡A§PÂ_¨Ï¥ÎªÌ¬O§_¦³¨Ï¥Î¼ÊºÙ¡C­YµL¼ÊºÙ«h¼ÊºÙ¬°¤¤¤å¦WÂà¬°º~»y«÷­µ(eg.¤ı¤p©ú->Wang Xiao Ming)¡C
-5.±µµÛ°õ¦æsimple_to_traditional.py¡A¶i¦æÂ²Åé¦rÂàÁcÅé¡C
-6.°õ¦ætranslation.py¡A±N©Ò¦³ªº­^¤å¦r³q¹LmtranslateªºAPIÂà´«¬°¤¤¤åÁcÅé¡C¥i¥H²£¥Í³Ì²×ªº¿é¥XÀÉ®×:"facebook_dataset_final_version.csv"
----------------------------------------------------------
-ÅçÃÒ½X°V½m¬yµ{:
-1.cd¨ìtrain_captcha·í¤¤
-2.°õ¦æpython train_captcha.py
-3.«K¥i¥HÀò±o¦W¬°hack.pthªº¼Ò«¬¥Î°µ«áÄòªºÅçÃÒ½X¯}¸Ñ
----------------------------------------------------------
-½u¤W·j´Mµ{¦¡(¥Dµ{¦¡)Àô¹Ò:
-1.¨Ï¥Îtkinter¹Ï¹³¤Æ¤¶­±¶}µo
-2.¦w¸Ëurllib¡Brequests¥H¤Îbs4
-3.¦w¸Ëpandas
-4.¦w¸Ëjieba¤¤¤åÂ_¦r®M¥ó
-5.¨Ï¥ÎimportlibÁ×§K½s½X°İÃD
-6.¦w¸Ëpythonªºopencv®M¥ó:»İ­nimport cv2
-7.¦w¸Ëface_recognition¡Bface_recognition_model©Mdlib (19.8¥H¤Wª©¥»)¡A³z¹L¦U¦Ûªºsetup.py¡A¬Ò´£¨Ñ¦bÀ£ÁYÀÉ¤¤
-8.»İ­n¦w¸ËVisual studio 2015¡BVisual studio C++¥H¤ÎCmake 3.13(³Ì·sª©¥»)¥H«Kdlib¶i¦æ¦w¸Ë®Éªº½sÄ¶
-9.±Ncaptcha.py©Mhack.pth©ñ¦b¦P1­Ó¸ê®Æ§¨
-10.»İ­n¦w¸Ëgensim®M¥ó¡A¥H¹ï¬Û¦ü¦r¶i¦æ¤ÀªR(¥Î©ó¸ü¤Jwikipedia¤å¦r¸ê®Æ®w)
-11.»İ­n¦w¸Ëselenium¥N²z¾÷¾¹¤H¡A¤U¸ü¹ïÀ³ªºfirefox geckodriver.exe©ñ¦b¹ïÀ³ªº¸ô®|
-12.»İ­n¦w¸Ëwindows¤WªºpytorchÀô¹Ò(¥Î§@°V½mÅçÃÒ½X¸ê®Æ®w©M¯}¸Ñ)
+##åˆ†æèˆ‡trainingåŸ·è¡Œæµç¨‹: <br />
+1.åŸ·è¡Œfacebook_crawling.pyï¼Œç”¢ç”Ÿç”¨æˆ¶æ‰€æœ‰æœ‹å‹çš„æœ‹å‹çš„facebookå€‹äººæª”æ¡ˆçš„url pickleæª” <br />
+2.æ¥è‘—åŸ·è¡Œcrawling_name.pyè®€å–æ‰€æœ‰çš„urlï¼Œå–å¾—ä½¿ç”¨è€…çš„æ¯ä½æœ‹å‹çš„åŒ…å«å·¥ä½œã€å­¸æ ¡åŠå®¶é„‰ç­‰çš„å€‹äººè³‡è¨Š <br />
+3.å†ä¾†åŸ·è¡Œdataset_questionmark_processing.pyï¼Œå°‡å¤šé¤˜çš„è³‡æ–™å»é™¤(å³åªæœ‰æä¾›åå­—çš„è³‡æ–™éœ€å»é™¤) <br />
+4.åŸ·è¡Œlanguage_processing.pyï¼Œåˆ¤æ–·ä½¿ç”¨è€…æ˜¯å¦æœ‰ä½¿ç”¨æš±ç¨±ã€‚è‹¥ç„¡æš±ç¨±å‰‡æš±ç¨±ç‚ºä¸­æ–‡åè½‰ç‚ºæ¼¢èªæ‹¼éŸ³(eg.ç‹å°æ˜->Wang Xiao Ming)ã€‚ <br />
+5.æ¥è‘—åŸ·è¡Œsimple_to_traditional.pyï¼Œé€²è¡Œç°¡é«”å­—è½‰ç¹é«”ã€‚ <br />
+6.åŸ·è¡Œtranslation.pyï¼Œå°‡æ‰€æœ‰çš„è‹±æ–‡å­—é€šémtranslateçš„APIè½‰æ›ç‚ºä¸­æ–‡ç¹é«”ã€‚å¯ä»¥ç”¢ç”Ÿæœ€çµ‚çš„è¼¸å‡ºæª”æ¡ˆ:"facebook_dataset_final_version.csv" <br /><br />
 
-½u¤W·j´Mµ{¦¡(¥Dµ{¦¡)°õ¦æ¬yµ{:
-1.°õ¦æuser_interface.py
-ª`·N:­YÅª¤£¨ìÄá¼v¾÷¥i¥H±Nuser_interface.py¤¤ªº²Ä412¦æªºcv2.VideoCapture(1)¤¤ªº1§ï¬°0©Î¬O¨ä¥Lªºcamera id(¬İ¸Ë¸mºŞ²z­û)
----------------------------------------------------------
-Àô¹Ò:
-1.»İ¦w¸Ëface_recognition_models
-->https://github.com/ageitgey/face_recognition_models/tree/master/face_recognition_models
-2.»İ¦w¸Ëface_recognition
-->https://github.com/ageitgey/face_recognition
-->Àô¹Ò¨Ì¿à¬°Click>=6.0¡Bdlib>=19.3.0¡Bnumpy¡BPillow¥H¤Îscipy>=0.17.0
-3.»İ¦w¸Ëmtranslate
-->https://github.com/mouuff/mtranslate/tree/master/mtranslate
-4.»İ¦w¸Ëopencc-python
-->https://github.com/yichen0831/opencc-python
-5.»İ¦w¸Ëvpngate-client
-->https://www.vpngate.net/cn/download.aspx
-6.»İ¦w¸Ëword2vec-tutorial
-->https://github.com/zake7749/word2vec-tutorial
-8.»İ¤U¸ügeckodriver.exe
+##é©—è­‰ç¢¼è¨“ç·´æµç¨‹: <br />
+1.cdåˆ°train_captchaç•¶ä¸­ <br />
+2.åŸ·è¡Œpython train_captcha.py <br />
+3.ä¾¿å¯ä»¥ç²å¾—åç‚ºhack.pthçš„æ¨¡å‹ç”¨åšå¾ŒçºŒçš„é©—è­‰ç¢¼ç ´è§£ <br /><br />
+
+##ç·šä¸Šæœå°‹ç¨‹å¼(ä¸»ç¨‹å¼)ç’°å¢ƒ: <br />
+1.ä½¿ç”¨tkinteråœ–åƒåŒ–ä»‹é¢é–‹ç™¼ <br />
+2.å®‰è£urllibã€requestsä»¥åŠbs4 <br />
+3.å®‰è£pandas <br />
+4.å®‰è£jiebaä¸­æ–‡æ–·å­—å¥—ä»¶ <br />
+5.ä½¿ç”¨importlibé¿å…ç·¨ç¢¼å•é¡Œ <br />
+6.å®‰è£pythonçš„opencvå¥—ä»¶:éœ€è¦import cv2 <br />
+7.å®‰è£face_recognitionã€face_recognition_modelå’Œdlib (19.8ä»¥ä¸Šç‰ˆæœ¬)ï¼Œé€éå„è‡ªçš„setup.pyï¼Œçš†æä¾›åœ¨å£“ç¸®æª”ä¸­ <br />
+8.éœ€è¦å®‰è£Visual studio 2015ã€Visual studio C++ä»¥åŠCmake 3.13(æœ€æ–°ç‰ˆæœ¬)ä»¥ä¾¿dlibé€²è¡Œå®‰è£æ™‚çš„ç·¨è­¯ <br />
+9.å°‡captcha.pyå’Œhack.pthæ”¾åœ¨åŒ1å€‹è³‡æ–™å¤¾ <br />
+10.éœ€è¦å®‰è£gensimå¥—ä»¶ï¼Œä»¥å°ç›¸ä¼¼å­—é€²è¡Œåˆ†æ(ç”¨æ–¼è¼‰å…¥wikipediaæ–‡å­—è³‡æ–™åº«) <br />
+11.éœ€è¦å®‰è£seleniumä»£ç†æ©Ÿå™¨äººï¼Œä¸‹è¼‰å°æ‡‰çš„firefox geckodriver.exeæ”¾åœ¨å°æ‡‰çš„è·¯å¾‘ <br />
+12.éœ€è¦å®‰è£windowsä¸Šçš„pytorchç’°å¢ƒ(ç”¨ä½œè¨“ç·´é©—è­‰ç¢¼è³‡æ–™åº«å’Œç ´è§£) <br /><br />
+
+##ç·šä¸Šæœå°‹ç¨‹å¼(ä¸»ç¨‹å¼)åŸ·è¡Œæµç¨‹: <br />
+1.åŸ·è¡Œuser_interface.py <br />
+æ³¨æ„:è‹¥è®€ä¸åˆ°æ”å½±æ©Ÿå¯ä»¥å°‡user_interface.pyä¸­çš„ç¬¬412è¡Œçš„cv2.VideoCapture(1)ä¸­çš„1æ”¹ç‚º0æˆ–æ˜¯å…¶ä»–çš„camera id(çœ‹è£ç½®ç®¡ç†å“¡) <br /><br />
+
+##ç’°å¢ƒ: <br />
+1.éœ€å®‰è£face_recognition_models <br />
+->https://github.com/ageitgey/face_recognition_models/tree/master/face_recognition_models <br />
+2.éœ€å®‰è£face_recognition <br />
+->https://github.com/ageitgey/face_recognition <br />
+->ç’°å¢ƒä¾è³´ç‚ºClick>=6.0ã€dlib>=19.3.0ã€numpyã€Pillowä»¥åŠscipy>=0.17.0 <br />
+3.éœ€å®‰è£mtranslate <br />
+->https://github.com/mouuff/mtranslate/tree/master/mtranslate <br />
+4.éœ€å®‰è£opencc-python <br />
+->https://github.com/yichen0831/opencc-python <br />
+5.éœ€å®‰è£vpngate-client <br />
+->https://www.vpngate.net/cn/download.aspx <br />
+6.éœ€å®‰è£word2vec-tutorial <br />
+->https://github.com/zake7749/word2vec-tutorial <br />
+8.éœ€ä¸‹è¼‰geckodriver.exe
